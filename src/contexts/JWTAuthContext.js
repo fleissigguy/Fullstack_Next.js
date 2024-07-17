@@ -2,7 +2,7 @@ import { createContext, useEffect, useReducer } from 'react';
 import axios from 'axios';
 import apiUrls from '@/config/apiUrls';
 import CoreUtils from '@/utils/CoreUtils';
-
+  
 const initialAuthState = {
     isAuthenticated: false,
     isInitialized: false,
